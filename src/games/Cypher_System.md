@@ -20,3 +20,5 @@ The Cypher System is the critically acclaimed game engine that powers any campai
 The Cypher System is easy for beginners to learn, but offers all the depth, nuance, and complexity you want. Some people call it a “rules-light” system, but it has the power and sophistication of games that are much more mechanically heavy—and yet it is substantially more flexible. GMs find the game easy to prep for and easy to run—it frees up the GM’s attention, in prep and at the game table, to focus on cool, creative ideas rather than numbers, mechanics, and “crunch.”
 
 Cypher System characters are built from the concept up. A descriptive sentence provides not just an easily-understood overview of the character, but also the mechanical basis for skills, abilities, and stats. And the Cypher System gives players amazing narrative engagement, rewarding player-driven subplots and giving players resources to bear on the tasks and situations they most want to succeed at.
+
+
