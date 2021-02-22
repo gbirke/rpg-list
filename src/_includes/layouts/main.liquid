@@ -1,0 +1,10 @@
+---
+layout: layouts/base.liquid
+---
+<h1 class="text-xl" >All games</h1>
+{% for game in collections.games %}
+	<div class="my-2">
+		<a href="{{game.url}}" class="text-blue-600">{{game.data.title}}</a>
+	</div>
+{% endfor %}
+</ul>

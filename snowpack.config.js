@@ -2,10 +2,10 @@ module.exports = {
   mount: {
     'src/_site': { url: '/', static: true, resolve: false },
 //    'src/scripts': { url: '/scripts' },
-//    'src/styles': { url: '/styles' },
+    'src/styles': { url: '/styles' },
   },
   plugins: [
-//    '@snowpack/plugin-postcss',
+    '@snowpack/plugin-postcss',
     [
       '@snowpack/plugin-run-script',
       {
