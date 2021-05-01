@@ -18,6 +18,14 @@ module.exports = function (config) {
 
 	config.addShortcode('excerpt', article => extractExcerpt(article));
 
+	const markdownIt = require("markdown-it");
+  	const options = {
+		html: true,
+		breaks: true,
+		linkify: true
+	};
+    config.setLibrary("md", markdownIt(options));	
+
 	return {
     dir: {
       input: 'src',
