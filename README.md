@@ -19,3 +19,8 @@ Dev server will be at http://localhost:8080/
 	npm run build
 
 
+## Creating Cover images
+
+Use imagemagick with the following command:
+
+	convert -density 150 input.pdf[0] -quality 90 output.jpg
