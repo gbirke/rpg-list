@@ -6,8 +6,6 @@ tags:
   - fantasy
   - gm-less
   - drawing
-min_players: 1
-max_players: 1
 image: images/Artefact.png
 mechanic: prompts
 resources:

@@ -5,14 +5,10 @@ tags:
   - fantasy
   - dark
   - cards
+  - cards:custom
   - gm-less
-min_players: 3
 author: Chris Longhurst
-mechanic: custom cards
 image: images/bleak_spirit.png
-resources:
-  - https://www.drivethrurpg.com/product/296546/Bleak-Spirit
-  - https://www.kickstarter.com/projects/potatocubed/bleak-spirit
 files:
   - "Systeme/Bleak Spirit/bleak-spirit-web.pdf"
   - "Systeme/Bleak Spirit/cards-print-and-play.pdf"
@@ -29,3 +25,9 @@ You will all also take turns playing the **wanderer** – the destiny- wreathed 
 At the end of the story the wanderer will enter a proving ground where they will confront an **adversary**. Everyone will have contributed their own lore to the tale but only one of you will determine who or what the true enemy is, and what sort of future the wanderer will usher in.
 
 Finally, anyone who is not currently playing the wanderer or the world will join the **chorus**. Their role is to elaborate on details introduced by the other players, drenching the world in both grandeur and decay.
+
+## Links
+
+  - https://www.drivethrurpg.com/product/296546/Bleak-Spirit
+  - https://www.kickstarter.com/projects/potatocubed/bleak-spirit
+

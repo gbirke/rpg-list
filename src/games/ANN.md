@@ -4,12 +4,9 @@ tags:
   - RPG
   - Cyberpunk
   - Storytelling
-min_players: 2
+  - two-players
 image: images/ANN.jpeg
 mechanic: dice (any, multiple colours)
-resources:
-  - https://always-never-now.tumblr.com
-  - https://www.drivethrurpg.com/product/114457/Always-Never-Now
 files:
   - "Systeme/ANN Public Edition/ANN-Player.pdf"
   - "Systeme/ANN Public Edition/ANN-Scenario.pdf"
@@ -31,5 +28,7 @@ game of shaping tomorrow. You always won, never quit, lived in the now.*
 *Now he's back—back in trouble—and it's up to you to save him and maybe,
 along the way, change the world.*
 
-
+### Links:
+  - https://always-never-now.tumblr.com
+  - https://www.drivethrurpg.com/product/114457/Always-Never-Now
 
