@@ -8,7 +8,12 @@ correctly)
 - Make design more responsive
 - Add search functionality: search for text and maybe an advanced search
   for multiple tags, number of players or mechanics
+- Add CLI or Vim generator for front matter
 
+# Beyond MVP
+- Tag pages with descriptions and lists of subtags
+- Author pages
+  
 # Done
 
 - Add live rendering with build tool
