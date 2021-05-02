@@ -5,8 +5,47 @@ layout: layouts/base.liquid
 	<a href="/" class="text-blue-600">To overview</a>
 </div>
 
-<h1 class="text-2xl font-bold mb-2">{{title}}</h1>
-<div class="prose">
-	{{ content }}
+<h1 class="mb-2 text-2xl font-bold">{{title}}</h1>
+<div class="mb-8">
+	{% include partials/tags  %}
 </div>
-
+<div class="flex">
+	<div class="mr-8 w-96">
+			<div>
+				<img src="/games/{{image}}" />
+			</div>
+			<table class="mt-4 table-auto">
+				{% for info in infobox %}
+					<tr>
+						<th class="pr-2 text-left">{{info.label}}:</th>
+						<td>{{info.value}}</td>
+					</tr>
+				{% endfor %}
+				{% if rpggeek %}
+					<tr>
+						<th class="pr-2 text-left">RPG Geek ID:</th>
+						<td><a href="https://rpggeek.com/rpg/{{rpggeek}}" class="text-blue-600">{{rpggeek}}</a></td>
+					</tr>
+				{% endif %}
+				{% if wikidata %}
+					<tr>
+						<th class="pr-2 text-left">Wikidata item:</th>
+						<td><a href="https://rpggeek.com/rpg/{{wikidata}}" class="text-blue-600">{{wikidata}}</a></td>
+					</tr>
+				{% endif %}
+			</table>
+		</div>
+	<div class="prose">
+			{{ content }}
+	</div>
+</div>
+{% if gameFiles.length > 0 %}
+	<h3 class="mt-4 font-bold">Files</h3>
+	<ul class="list-disc list-inside">
+		{% for gf in gameFiles %}
+			<li>
+				{{gf.name}}
+			</li>
+		{% endfor %}
+	</ul>
+{% endif %}

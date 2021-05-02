@@ -1,11 +1,12 @@
 # Next steps
-- Create template for games (adding resources, file links, tags, image, etc)
 - Add pages for tags (see https://www.11ty.dev/docs/quicktips/tag-pages/ )
-- Improve image display on overview page (Handle ladascape and portrait
-correctly)
+- Improve image display on overview page (Handle both landscape and portrait)
 - Add pagination on game overview page 
 - Add pagination on game detail page (next/previous game)
-- Make design more responsive
+- Deploy
+- In-Browser PDF preview
+- Make design more responsive: Test on mobile devices and add breakpoints
+  to avoid unneccessary columns
 - Add search functionality: search for text and maybe an advanced search
   for multiple tags, number of players or mechanics
 - Add CLI or Vim generator for front matter

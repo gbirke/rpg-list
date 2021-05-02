@@ -17,11 +17,7 @@ layout: layouts/base.liquid
 					{% excerpt game %}
 				</div>
 				<div class="order-2 mt-4 mb-4">
-					{% for tag in game.data.tags %}
-						<a href="#"
-						   class="inline-block px-2 mr-1 text-white bg-blue-400 rounded-lg"
-							>{{tag}}</a>
-					{% endfor %}
+					{% include partials/tags tags: game.data.tags %}
 				</div>
 		</div>
 	</div>
