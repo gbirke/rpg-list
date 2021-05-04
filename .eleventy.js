@@ -4,19 +4,12 @@ module.exports = function (config) {
 
 	config.addCollection("all_games", function(collectionApi) {
 		const allGames = collectionApi.getFilteredByGlob('src/games/*.md');
-		// TODO sort with map to avoid performance loss from regex application
-		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#sorting_with_map
-		allGames.sort(function(a,b) {
-			// TODO maybe add other sort transformations (Der/Die/Das/A/An)
-			const stopWordRegex = new RegExp('^The ');
-			const aTitle = a.data.title.replace( stopWordRegex, '' );
-			const bTitle = b.data.title.replace( stopWordRegex, '' );
-			return aTitle.localeCompare(bTitle);
-		} );
+		allGames.sort( sortByTitle );
 		return allGames;
   	});
 
 	config.addShortcode('excerpt', article => extractExcerpt(article));
+	config.addFilter('sortByTitle', coll => { coll.sort(sortByTitle); return coll })
 
 	const markdownIt = require("markdown-it");
   	const options = {
@@ -35,6 +28,16 @@ module.exports = function (config) {
     templateFormats: ['html', 'md', 'njk', 'liquid'],
   };
 }
+
+function sortByTitle(a,b) {
+		// TODO sort with map to avoid performance loss from regex application
+		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#sorting_with_map
+		// TODO maybe add other sort transformations (Der/Die/Das/A/An)
+		const stopWordRegex = new RegExp('^The ');
+		const aTitle = a.data.title.replace( stopWordRegex, '' );
+		const bTitle = b.data.title.replace( stopWordRegex, '' );
+		return aTitle.localeCompare(bTitle);
+		}
 
 function extractExcerpt(article) {
   if (!article.hasOwnProperty('templateContent')) {

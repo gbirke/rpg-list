@@ -1,6 +1,5 @@
 # Next steps
 - Add taglist collection and tag-list page (see https://github.com/11ty/eleventy-base-blog)
-- Sort by title on tag page
 - Improve image display on overview page (Handle both landscape and portrait)
 - Add pagination on game overview page 
 - Add pagination on game detail page (next/previous game)
@@ -13,6 +12,7 @@
 - Add CLI or Vim generator for front matter
 
 # Beyond MVP
+- Improve title sorting performance on tag page, see also https://github.com/11ty/eleventy/issues/1757
 - Tag pages with descriptions and lists of subtags
 - Author pages
 - Tag cloud, both on main and tag pages

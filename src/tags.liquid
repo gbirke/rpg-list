@@ -14,7 +14,7 @@ permalink: /tags/{{ tag | slug }}/
 ---
 <h1 class="mb-8 text-xl font-bold ">Tagged “{{ tag }}”</h1>
 
-{% assign games = collections[tag] %}
+{% assign games = collections[tag] | sortByTitle %}
 
 {% include game_list %}
 
