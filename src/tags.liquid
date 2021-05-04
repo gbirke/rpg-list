@@ -1,0 +1,22 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  addAllPagesToCollections: true
+  filter:
+    - all_games
+    - all
+layout: layouts/base.liquid
+eleventyComputed:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag | slug }}/
+---
+<h1 class="mb-8 text-xl font-bold ">Tagged “{{ tag }}”</h1>
+
+{% assign games = collections[tag] %}
+
+{% include game_list %}
+
+<p class="mb-2">See <a class="text-blue-600" href="{{ '/tags/' | url }}">all tags</a>.</p>
+<p class="mb-2"><a href="/" class="text-blue-600">To main page</a></p>

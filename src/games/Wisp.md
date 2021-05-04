@@ -2,7 +2,7 @@
 title: Wisp
 author: Adela Grace
 tags:
-  - Storytelling
+  - storytelling
   - two-players
   - prompts
   - cards

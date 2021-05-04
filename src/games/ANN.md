@@ -1,9 +1,9 @@
 ---
 title: ANN (Always/Never/Now)
 tags:
-  - RPG
-  - Cyberpunk
-  - Storytelling
+  - rpg
+  - cyberpunk
+  - storytelling
   - two-players
 image: images/ANN.jpeg
 mechanic: dice (any, multiple colours)

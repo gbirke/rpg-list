@@ -2,7 +2,7 @@ module.exports = function (config) {
 
 	config.addPassthroughCopy('./src/games/images');
 
-	config.addCollection("games", function(collectionApi) {
+	config.addCollection("all_games", function(collectionApi) {
 		const allGames = collectionApi.getFilteredByGlob('src/games/*.md');
 		// TODO sort with map to avoid performance loss from regex application
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#sorting_with_map
@@ -32,7 +32,7 @@ module.exports = function (config) {
       output: 'src/_site',
     },
     passthroughFileCopy: true,
-    templateFormats: ['html', 'md', 'njk'],
+    templateFormats: ['html', 'md', 'njk', 'liquid'],
   };
 }
 
@@ -40,6 +40,11 @@ function extractExcerpt(article) {
   if (!article.hasOwnProperty('templateContent')) {
     console.warn('Failed to extract excerpt: Document has no property "templateContent".');
     return null;
+  }
+
+  // Prevent tags page from rendering itself, see https://github.com/11ty/eleventy/issues/1237
+  if (article.inputPath.match("/tags.liquid") ) {
+	  return null;
   }
  
   let excerpt = null;

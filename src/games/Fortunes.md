@@ -2,7 +2,7 @@
 title: Fortunes
 author: Jim Markus
 tags:
-  - Storytelling
+  - storytelling
   - two-players
   - cards
   - cards:tarot
