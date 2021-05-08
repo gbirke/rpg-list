@@ -25,7 +25,7 @@ module.exports = function (config) {
 	const markdownIt = require("markdown-it");
   	const options = {
 		html: true,
-		breaks: true,
+		breaks: false,
 		linkify: true
 	};
     config.setLibrary("md", markdownIt(options));	
