@@ -23,4 +23,4 @@ Dev server will be at http://localhost:8080/
 
 Use imagemagick with the following command:
 
-	convert -density 150 input.pdf[0] -quality 90 output.jpg
+	convert -density 72 input.pdf[0] -quality 90 output.jpg
