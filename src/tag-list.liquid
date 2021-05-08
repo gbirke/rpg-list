@@ -7,7 +7,7 @@ layout: layouts/base.liquid
 <ul class="list-disc list-inside">
 	{% for tag in collections.tagList %}
 		<li>
-			<a href="/tags/{{tag}}" class="text-blue-600">{{tag}}</a>
+			<a href="/tags/{{tag | slug}}" class="text-blue-600">{{tag}}</a>
 		</li>
 	{% endfor %}
 </ul>
