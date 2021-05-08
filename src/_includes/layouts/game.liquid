@@ -2,13 +2,20 @@
 layout: layouts/base.liquid
 ---
 <h1 class="mb-2 text-2xl font-bold">{{title}}</h1>
+{% if subtitle %}
+	<h2 class="mb-2 text-xl font-bold">{{subtitle}}</h2>
+{% endif %}
 <div class="mb-8">
 	{% include partials/tags  %}
 </div>
 <div class="flex">
 	<div class="mr-8 w-96">
-			<div>
-				<img src="/games/{{image}}" />
+		<div>
+				{% if image %}
+					<img src="/games/{{image}}" />
+				{% else %}
+					<div class="w-64 h-64 bg-gray-200">&nbsp;</div>
+				{% endif %}
 			</div>
 			<table class="mt-4 table-auto">
 				{% for info in infobox %}

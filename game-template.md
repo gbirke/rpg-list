@@ -1,16 +1,20 @@
 ---
-title:
-author:
+title: 
+subtitle: 
+author: 
 tags:
   - rpg
-min_players:
-max_players:
+  - fantasy
+  - PbtA
+  - dice
+  - dice:d6
 image: images/
-mechanic: 
+mechanic: d6
 playtime:
 rpggeek:
 wikidata:
 date: 2021-01-01
+physical_copy: false
 files:
   - "Systeme/"
 ---
