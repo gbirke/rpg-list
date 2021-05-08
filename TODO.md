@@ -5,6 +5,7 @@
 - Add pagination on game detail page (next/previous game)
 - Deploy
 - In-Browser PDF preview
+- Show tag and game counts
 - Make design more responsive: 
 	- Test on mobile devices and add breakpoints to avoid unneccessary columns
 	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
