@@ -7,8 +7,10 @@ tags:
   - cards
   - cards:custom
   - gm-less
+  - kickstarter
 author: Chris Longhurst
 image: images/bleak_spirit.png
+physical_copy: true
 files:
   - "Systeme/Bleak Spirit/bleak-spirit-web.pdf"
   - "Systeme/Bleak Spirit/cards-print-and-play.pdf"

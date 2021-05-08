@@ -24,6 +24,12 @@ layout: layouts/base.liquid
 						<td>{{info.value}}</td>
 					</tr>
 				{% endfor %}
+				{% if physical_copy %}
+					<tr>
+						<th>Physical Copy</th>
+						<td>Yes</td>
+					</tr>
+				{% endif%}
 				{% if rpggeek %}
 					<tr>
 						<th class="pr-2 text-left">RPG Geek ID:</th>
