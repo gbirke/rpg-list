@@ -3,11 +3,11 @@
 - Add pagination on game overview page 
 - Add pagination on tag page
 - Add pagination on game detail page (next/previous game)
-- Add styled header/navbar and footer
 - Deploy
 - In-Browser PDF preview
-- Make design more responsive: Test on mobile devices and add breakpoints
-  to avoid unneccessary columns
+- Make design more responsive: 
+	- Test on mobile devices and add breakpoints to avoid unneccessary columns
+	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
 - Add search functionality: search for text and tags. See https://www.belter.io/eleventy-search/
 - Add CLI or Vim generator for front matter
 
