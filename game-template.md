@@ -1,5 +1,6 @@
 ---
 title:
+author:
 tags:
   - rpg
 min_players:
