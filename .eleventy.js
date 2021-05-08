@@ -8,6 +8,17 @@ module.exports = function (config) {
 		return allGames;
   	});
 
+	// Create an array of all tags
+  	config.addCollection("tagList", function(collection) {
+		let tagSet = new Set();
+		collection.getAll().forEach(item => {
+			(item.data.tags || []).forEach(tag => tagSet.add(tag));
+		});
+		let tagList = [...tagSet];
+		tagList.sort();
+		return tagList;
+	});
+
 	config.addShortcode('excerpt', article => extractExcerpt(article));
 	config.addFilter('sortByTitle', coll => { coll.sort(sortByTitle); return coll })
 

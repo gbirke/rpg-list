@@ -1,0 +1,16 @@
+---
+title: All Tags
+permalink: /tags/
+layout: layouts/base.liquid
+---
+<h1 class="mb-8 text-xl font-bold">All Tags</h1>
+<ul class="list-disc list-inside">
+	{% for tag in collections.tagList %}
+		<li>
+			<a href="/tags/{{tag}}" class="text-blue-600">{{tag}}</a>
+		</li>
+	{% endfor %}
+</ul>
+
+
+<p class="mt-8 mb-2"><a href="/" class="text-blue-600">To main page</a></p>
