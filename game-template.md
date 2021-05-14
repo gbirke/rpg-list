@@ -9,8 +9,10 @@ tags:
   - dice
   - dice:d6
 image: images/
-mechanic: d6
+mechanic: 
 playtime:
+min_players: 
+max_players: 
 rpggeek:
 wikidata:
 date: 2021-01-01
