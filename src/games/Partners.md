@@ -4,6 +4,7 @@ subtitle: A detective storytelling game for exactly two players
 author: Steve Dee
 tags:
   - storytelling
+  - investigation
   - cards
   - cards:52
   - prompts
@@ -15,7 +16,10 @@ max_players: 2
 date: 2021-05-07
 physical_copy: true
 files:
-  - "Systeme/Partners.pdf"
+  - "Systeme/Partners/Partners.pdf"
+  - "Systeme/Partners/Partners_JrDetective_FA_Singles.pdf"
+  - "Systeme/Partners/Partners_JrDetective_FA_Spreads.pdf"
+  - "Systeme/Partners/Partners_The_Noir_File.pdf"
 ---
 
 Partners is a totally unique new storytelling game for exactly two
