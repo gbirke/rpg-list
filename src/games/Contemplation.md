@@ -11,7 +11,7 @@ tags:
   - prompts
   - zinequest
   - zinequest:2021
-image: images/
+image: images/Contemplation.jpg
 mechanic: Prompts
 min_players: 1
 rpggeek:
