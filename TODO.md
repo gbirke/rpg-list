@@ -18,7 +18,8 @@
 - Author pages
 - Tag cloud, both on main and tag pages
 - Advanced search for specific frontmatter values.
-  
+- Cover thumbnail overview (with info on hover)
+
 # Done
 
 - Add live rendering with build tool
