@@ -6,10 +6,11 @@ tags:
   - urban fantasy
   - time travel
   - PbtA
+  - ORC
   - dice
   - dice:d6
 image: images/End_Times.jpg
-mechanic: Powered by the Apocalypse
+mechanic: Powered by the Apocalypse or ORC
 rpggeek: 71234
 wikidata:
 date: 2021-07-11
