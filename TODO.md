@@ -16,6 +16,8 @@
 - Improve title sorting performance on tag page, see also https://github.com/11ty/eleventy/issues/1757
 - Tag pages with descriptions and lists of subtags
 - Author pages
+- Render ISBN in infobox
+- Add ratings / How likely to play / Play count
 - Tag cloud, both on main and tag pages
 - Advanced search for specific frontmatter values.
 - Cover thumbnail overview (with info on hover)
