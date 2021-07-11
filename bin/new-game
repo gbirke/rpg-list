@@ -1,0 +1,70 @@
+#!/bin/sh
+
+# This shell script generates an entry for a game
+# Prerequisites: fd, fzf, pdftotext, convert
+
+# Where to look for files and folders
+SEARCH_PATH=/Volumes/Datentonne/Rollenspiel/Systeme
+
+# Prefix for the file list
+FILE_PREFIX=Systeme/
+
+# search for file
+SELECTED=`fd . $SEARCH_PATH | fzf`
+if [ -z "$SELECTED" ]; then
+	exit
+fi
+
+# Game name from file name
+GAME=`basename -s .pdf "$SELECTED" | tr _ " "`
+
+# A "safe" game name (for usage in file names)
+GAME_SAFE=`echo $GAME | tr -dc "[:alnum:][:space:]" | tr " " _`
+
+# Determine source file for cover image and excerpt
+PDF_SOURCE=$SELECTED
+if [ -d "$SELECTED" ]; then
+	PDF_SOURCE=`fd . "$SELECTED" | fzf --header="Choose file for cover image and excerpt"`
+	if [ -z "$PDF_SOURCE" ]; then
+		exit 1
+	fi
+fi
+
+
+# Generate file list
+FILE_LIST="  - $FILE_PREFIX$(basename \"$SELECTED\")"
+if [ -d "$SELECTED" ]; then
+	FILE_LIST=`fd . -t f --base-directory "$SELECTED" | sed "s!^!  - $FILE_PREFIX!"`
+fi
+
+IMAGE_FILE="images/$GAME_SAFE.jpg"
+CURRENT_DATE=`date +"%Y-%m-%d"`
+EXCERPT=`pdftotext -l 10 "$PDF_SOURCE" -`
+
+# TODO analyze text and generate tags, see https://stackoverflow.com/q/16489317/130121
+
+# TODO query rpggeek API (https://rpggeek.com/search/rpgunified?q= with application/json) and suggest links
+# TODO query wikidata API
+
+GAME_FILE="src/games/${GAME_SAFE}.md"
+COVER_IMAGE_FILE="src/games/$IMAGE_FILE"
+
+export GAME
+export FILE_LIST
+export CURRENT_DATE
+export IMAGE_FILE
+export EXCERPT
+
+# Fill template values
+envsubst < game-template.md > "$GAME_FILE"
+
+echo "Created $GAME_FILE"
+
+# Create cover image
+CONVERT_CMD="convert -density 72 \"${PDF_SOURCE}[0]\" -colorspace rgb \"$COVER_IMAGE_FILE\""
+eval $CONVERT_CMD
+
+echo "Created cover image $COVER_IMAGE_FILE with command $CONVERT_CMD"
+
+
+

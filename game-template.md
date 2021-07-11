@@ -1,5 +1,5 @@
 ---
-title: 
+title: ${GAME}
 subtitle: 
 author: 
 tags:
@@ -8,19 +8,22 @@ tags:
   - PbtA
   - dice
   - dice:d6
-image: images/
+image: ${IMAGE_FILE}
 mechanic: 
 playtime:
 min_players: 
 max_players: 
 rpggeek:
 wikidata:
-date: 2021-01-01
+date: ${CURRENT_DATE}
 physical_copy: false
 files:
-  - "Systeme/"
+${FILE_LIST}
 ---
 
+<!-- Excerpt Start -->
+${EXCERPT}
+<!-- Excerpt End -->
 
 ### Links
 
