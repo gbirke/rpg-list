@@ -19,7 +19,10 @@
 - Render ISBN in infobox
 - Add ratings / How likely to play / Play count
 - Tag cloud, both on main and tag pages
-- Advanced search for specific frontmatter values.
+- Improve tag display for games: Add icons for storytelling/rpg games,
+	dice and cards
+- Advanced search for specific frontmatter values (e.g. mechanic or number
+	of players).
 - Cover thumbnail overview (with info on hover)
 
 # Done
