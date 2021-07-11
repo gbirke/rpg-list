@@ -11,7 +11,7 @@ tags:
   - dice:d6
 image: images/After_the_War.jpg
 mechanic: D6
-playtime: 2-4 Hours per session, 1-12 Session per Campaign
+playtime: 2-4 Hours per session, <br>1-12 Session per Campaign
 min_players: 2 
 max_players: 5
 rpggeek: 58970

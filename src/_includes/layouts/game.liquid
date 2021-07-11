@@ -20,26 +20,26 @@ layout: layouts/base.liquid
 			<table class="mt-4 table-auto">
 				{% for info in infobox %}
 					<tr>
-						<th class="pr-2 text-left">{{info.label}}:</th>
-						<td>{{info.value}}</td>
+						<th class="pr-2 text-left align-top">{{info.label}}:</th>
+						<td class="align-top">{{info.value}}</td>
 					</tr>
 				{% endfor %}
 				{% if physical_copy %}
 					<tr>
-						<th>Physical Copy</th>
-						<td>Yes</td>
+						<th class="pr-2 text-left align-top">Physical Copy</th>
+						<td class="align-top">Yes</td>
 					</tr>
 				{% endif%}
 				{% if rpggeek %}
 					<tr>
-						<th class="pr-2 text-left">RPG Geek ID:</th>
-						<td><a href="https://rpggeek.com/rpg/{{rpggeek}}" class="text-blue-600">{{rpggeek}}</a></td>
+						<th class="pr-2 text-left align-top">RPG Geek ID:</th>
+						<td class="align-top"><a href="https://rpggeek.com/rpg/{{rpggeek}}" class="text-blue-600">{{rpggeek}}</a></td>
 					</tr>
 				{% endif %}
 				{% if wikidata %}
 					<tr>
-						<th class="pr-2 text-left">Wikidata item:</th>
-						<td><a href="https://www.wikidata.org/wiki/{{wikidata}}" class="text-blue-600">{{wikidata}}</a></td>
+						<th class="pr-2 text-left align-top">Wikidata item:</th>
+						<td class="align-top"><a href="https://www.wikidata.org/wiki/{{wikidata}}" class="text-blue-600">{{wikidata}}</a></td>
 					</tr>
 				{% endif %}
 			</table>
