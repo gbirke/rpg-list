@@ -9,7 +9,7 @@ tags:
   - history
   - scenes
   - solo
-  - two-player
+  - two-players
 image: images/Epitaph.jpg
 mechanic: Scenes
 playtime: 2-4 hours

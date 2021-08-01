@@ -8,6 +8,7 @@ tags:
   - dice
   - dice:d6
   - kickstarter
+  - ghosts
 image: images/phantom_trade.jpg
 mechanic: d6
 date: 2021-03-29
