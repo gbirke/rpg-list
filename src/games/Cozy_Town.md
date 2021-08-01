@@ -7,6 +7,7 @@ tags:
   - cute
   - maps
   - drawing
+  - peaceful
   - prompts
   - cards
   - cards:52

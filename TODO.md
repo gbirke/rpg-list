@@ -10,7 +10,6 @@
 	- Test on mobile devices and add breakpoints to avoid unneccessary columns
 	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
 - Add search functionality: search for text and tags. See https://www.belter.io/eleventy-search/
-- Add CLI or Vim generator for front matter
 
 # Beyond MVP
 - Improve title sorting performance on tag page, see also https://github.com/11ty/eleventy/issues/1757
@@ -24,6 +23,7 @@
 - Advanced search for specific frontmatter values (e.g. mechanic or number
 	of players).
 - Cover thumbnail overview (with info on hover)
+- Full text search of PDFs
 
 # Done
 
@@ -33,3 +33,4 @@
 - Add more information to overview page for all games (image, tags,
   excerpt)
 - Add taglist collection and tag-list page (see https://github.com/11ty/eleventy-base-blog)
+- Add CLI or Vim generator for front matter
