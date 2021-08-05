@@ -1,5 +1,4 @@
 # Next steps
-- Improve image display on overview page (Handle both landscape and portrait)
 - Add pagination on game overview page 
 - Add pagination on tag page (double pagination), see https://github.com/11ty/eleventy/issues/1120
 - Add pagination on game detail page (next/previous game)
@@ -22,6 +21,8 @@
 	dice and cards
 - Advanced search for specific frontmatter values (e.g. mechanic or number
 	of players).
+- Show "related" games (by using tag scoring: frequent tags have lower
+  score, infrequent tags have higher score)
 - Cover thumbnail overview (with info on hover)
 - Full text search of PDFs
 
