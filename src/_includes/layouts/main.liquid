@@ -1,5 +1,9 @@
 ---
 layout: layouts/base.liquid
 ---
-<h1 class="mb-4 text-2xl font-bold" >All games</h1>
+<div class="mb-8 flex items-end">
+	<h1 class="text-xl font-bold flex-1">All games</h1>
+	<p class="text-sm italic"> {{ collections.all_games.length }} games</p>
+</div>
+
 {% include game_list games: collections.all_games %}
