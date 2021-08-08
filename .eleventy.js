@@ -2,7 +2,9 @@ module.exports = function (config) {
 
 	config.addPassthroughCopy('./src/games/images');
 
-	// eleventy 1.0
+	// Eleventy < 1.0
+	config.setUseGitIgnore(false);
+	// eleventy >= 1.0
 	// config.ignores.delete("./src/_tmp/index.css");
 	config.addWatchTarget('./src/_tmp/index.css')
   	config.addPassthroughCopy({ './src/_tmp/index.css': 'styles/index.css' })
