@@ -8,6 +8,7 @@ layout: layouts/base.liquid
 	{% for tag in collections.tagList %}
 		<li>
 			<a href="/tags/{{tag | slug}}" class="text-blue-600">{{tag}}</a>
+			<span> ({{collections[tag].length}})</span>
 		</li>
 	{% endfor %}
 </ul>

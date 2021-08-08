@@ -4,7 +4,6 @@
 - Add pagination on game detail page (next/previous game)
 - Deploy
 - In-Browser PDF preview
-- Show tag and game counts
 - Make design more responsive: 
 	- Test on mobile devices and add breakpoints to avoid unneccessary columns
 	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
@@ -16,7 +15,8 @@
 - Author pages
 - Render ISBN in infobox
 - Add ratings / How likely to play / Play count
-- Tag cloud, both on main and tag pages
+- Tag cloud, both on main and "games tagged with" pages
+- Show tag list ordered by tag count
 - Improve tag display for games: Add icons for storytelling/rpg games,
 	dice and cards
 - Advanced search for specific frontmatter values (e.g. mechanic or number
@@ -35,3 +35,4 @@
   excerpt)
 - Add taglist collection and tag-list page (see https://github.com/11ty/eleventy-base-blog)
 - Add CLI or Vim generator for front matter
+- Show tag and game counts
