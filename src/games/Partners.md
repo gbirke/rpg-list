@@ -5,6 +5,7 @@ author: Steve Dee
 tags:
   - storytelling
   - investigation
+  - gm-less
   - cards
   - cards:52
   - prompts

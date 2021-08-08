@@ -6,6 +6,7 @@ tags:
   - fantasy
   - humor
   - religion
+  - gm-less
   - dice
   - dice:d6
   - zinequest

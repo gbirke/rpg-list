@@ -5,6 +5,7 @@ author: Ben Robbins
 tags:
   - rpg
   - storytelling
+  - gm-less
 image: images/Kingdom.jpg
 mechanic: custom
 min_players: 2

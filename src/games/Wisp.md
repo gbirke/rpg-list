@@ -4,6 +4,7 @@ author: Adela Grace
 tags:
   - storytelling
   - two-players
+  - gm-less
   - prompts
   - cards
   - cards:52

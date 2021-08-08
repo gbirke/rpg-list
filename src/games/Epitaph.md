@@ -7,6 +7,7 @@ tags:
   - fantasy
   - sci-fi
   - history
+  - gm-less
   - scenes
   - solo
   - two-players

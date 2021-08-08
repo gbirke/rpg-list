@@ -9,6 +9,7 @@ tags:
   - solo
   - peaceful
   - humor
+  - gm-less
   - zinequest
   - zinequest:2021
 image: images/Habits_of_the_Common_House_Ghost.jpg
