@@ -33,4 +33,4 @@ and other familiar roles of mystery television.
 ### Links
 
 - https://www.kickstarter.com/projects/stevedee/partners
--
+- https://www.tinstargames.com/partners.html
