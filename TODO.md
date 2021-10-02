@@ -25,6 +25,7 @@
   score, infrequent tags have higher score)
 - Cover thumbnail overview (with info on hover)
 - Full text search of PDFs
+- Timeline of aquisitions (List ordered by date, grouped by month or year)
 
 # Done
 
