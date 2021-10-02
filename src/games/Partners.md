@@ -10,6 +10,7 @@ tags:
   - cards:52
   - prompts
   - two-players
+  - kickstarter
 image: images/Partners.jpg
 mechanic: cards, prompts
 min_players: 2
@@ -20,6 +21,10 @@ files:
   - "Systeme/Partners/Partners.pdf"
   - "Systeme/Partners/Partners_JrDetective_FA_Singles.pdf"
   - "Systeme/Partners/Partners_JrDetective_FA_Spreads.pdf"
+  - "Systeme/Partners/Partners_Cyber_FA_Outlined_Singles.pdf"
+  - "Systeme/Partners/Partners_Cyber_FA_Outlined_Spreads.pdf"
+  - "Systeme/Partners/Partners_Conspiracy_FA_Outlined_Singles.pdf"
+  - "Systeme/Partners/Partners_Conspiracy_FA_Outlined_Spreads.pdf"
   - "Systeme/Partners/Partners_The_Noir_File.pdf"
 ---
 
@@ -28,9 +33,9 @@ players. A love letter to the police procedural and mystery of the week
 television genre, players take the roles of detectives hot on a murder
 case each session of play. Not only are you playing the two irascible,
 ill-matched detectives, you'll also play their boss, their subordinates
-and other familiar roles of mystery television. 
+and other familiar roles of mystery television.
 
 ### Links
 
-- https://www.kickstarter.com/projects/stevedee/partners
 - https://www.tinstargames.com/partners.html
+- https://www.kickstarter.com/projects/stevedee/partners
