@@ -12,6 +12,7 @@ tags:
   - cards
   - cards:52
   - solo
+  - hack
 image: images/Cozy_Town.jpg
 mechanic: prompts, D6, map drawing
 playtime: 3-4 hours
@@ -32,6 +33,8 @@ summer, soft autumn, and snuggled down winter. Together you’ll explore what ma
 people, and the communities they’re in, feel safe and cozy.
 
 <!-- Excerpt End -->
+
+The mechanics are a modified version of "A Quiet Year"
 
 ### Links
 
