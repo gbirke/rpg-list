@@ -2,6 +2,7 @@
 title: Epitaph
 subtitle: 
 author: Marc Hobbs
+publisher: Less Than Three Games
 tags:
   - storytelling
   - fantasy
