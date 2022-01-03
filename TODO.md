@@ -12,7 +12,9 @@
 # Beyond MVP
 - Improve title sorting performance on tag page, see also https://github.com/11ty/eleventy/issues/1757
 - Tag pages with descriptions and lists of subtags
-- Author pages
+- Improve load times by optimizing images, using [eleventy-img](https://github.com/11ty/eleventy-img)
+- Author pages, linking games together, Linking to publishers
+- Publisher pages, render Publisher in Infobox
 - Render ISBN in infobox
 - Add ratings / How likely to play / Play count
 - Tag cloud, both on main and "games tagged with" pages
