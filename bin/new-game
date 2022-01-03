@@ -66,5 +66,5 @@ eval $CONVERT_CMD
 
 echo "Created cover image $COVER_IMAGE_FILE with command $CONVERT_CMD"
 
-
+vim $GAME_FILE
 
