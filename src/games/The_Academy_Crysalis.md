@@ -9,6 +9,9 @@ tags:
   - Trophy Dark
   - dice
   - dice:d6
+  - kickstarter
+  - zinequest
+  - zinequest:2021
 image: images/The_Academy_Crysalis.jpg
 mechanic: light and dark d6
 playtime:

@@ -5,13 +5,15 @@ author: Avri Klemer
 tags:
   - storytelling
   - culture
-  - For the Queen
+  - Descended from the Queen
   - prompts
   - cards
   - hack
   - kickstarter
+  - zinequest
+  - zinequest:2021
 image: images/descending_the_stairs_zine_pages.jpg
-mechanic: Prompts
+mechanic: Descended from the Queen
 playtime: 90-120 minutes
 min_players: 1
 max_players: 6

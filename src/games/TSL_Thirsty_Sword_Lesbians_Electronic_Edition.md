@@ -10,6 +10,7 @@ tags:
   - PbtA
   - dice
   - dice:d6
+  - kickstarter
 image: images/TSL_Thirsty_Sword_Lesbians_Electronic_Edition.jpg
 mechanic: 2d6
 playtime: 2-4 hours per session
