@@ -16,6 +16,8 @@
 - Improve load times by optimizing images, using [eleventy-img](https://github.com/11ty/eleventy-img)
 - Author pages, linking games together, Linking to publishers
 - Publisher pages, render Publisher in Infobox
+- Add thumnails for files
+- Add alphabetic navigation to pagination
 - Render ISBN in infobox
 - Add ratings / How likely to play / Play count
 - Tag cloud, both on main and "games tagged with" pages
