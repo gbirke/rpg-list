@@ -15,6 +15,10 @@
 - Tag pages with descriptions and lists of subtags
 - Improve load times by optimizing images, using [eleventy-img](https://github.com/11ty/eleventy-img)
 - Author pages, linking games together, Linking to publishers
+- Sync tool for my collection of PDFs
+	- generate drafts of PDFs 
+	- add additional files.
+	- generate JSON overview of missing systems
 - Publisher pages, render Publisher in Infobox
 - Add thumnails for files
 - Add alphabetic navigation to pagination
