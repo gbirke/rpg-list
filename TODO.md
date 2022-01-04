@@ -3,7 +3,8 @@
 - Add pagination on tag page (double pagination), see https://github.com/11ty/eleventy/issues/1120
 - Add pagination on game detail page (next/previous game)
 - Deploy
-- In-Browser PDF preview
+- In-Browser PDF preview / Link to PDF display app (Kavita Reader,
+	Ubookquity, Paperless-NG)
 - Make design more responsive: 
 	- Test on mobile devices and add breakpoints to avoid unneccessary columns
 	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
@@ -21,6 +22,7 @@
 - Show tag list ordered by tag count
 - Improve tag display for games: Add icons for storytelling/rpg games,
 	dice and cards
+- Views / Collections based on tags
 - Advanced search for specific frontmatter values (e.g. mechanic or number
 	of players).
 - Show "related" games (by using tag scoring: frequent tags have lower
