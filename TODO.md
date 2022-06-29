@@ -12,7 +12,7 @@
 
 # Beyond MVP
 - Improve title sorting performance on tag page, see also https://github.com/11ty/eleventy/issues/1757
-- Tag pages with descriptions and lists of subtags
+- Pages for tags, with descriptions and lists of subtags
 - Improve load times by optimizing images, using [eleventy-img](https://github.com/11ty/eleventy-img)
 - Author pages, linking games together, Linking to publishers
 - Sync tool for my collection of PDFs
