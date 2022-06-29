@@ -7,6 +7,7 @@ tags:
   - gm-less
   - zinequest
   - zinequest:2021
+  - kickstarter
 image: images/Little_Kathys_Tea_Party.jpg
 mechanic: Special, drinking tea
 playtime:
