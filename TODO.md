@@ -26,7 +26,7 @@
 - Add ratings / How likely to play / Play count
 - Tag cloud, both on main and "games tagged with" pages
 - Show tag list ordered by tag count
-- Improve tag display for games: Add icons for storytelling/rpg games,
+- Improve tag display for games: Add icons/colors for storytelling/rpg games,
 	dice and cards
 - Views / Collections based on tags
 - Advanced search for specific frontmatter values (e.g. mechanic or number
