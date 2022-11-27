@@ -25,7 +25,7 @@
 				{% for tag in game.data.tags %}
 					<a href="/tags/{{tag | slug}}"
 					   class="inline-block mr-2 text-blue-600"
-					   >{{tag}}</a> 
+					   >{{tag | shortenTag}}</a> 
 				{% endfor %}
 			</div>
 		</div>

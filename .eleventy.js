@@ -28,6 +28,7 @@ module.exports = function (config) {
 
 	config.addShortcode('excerpt', article => extractExcerpt(article));
 	config.addFilter('sortByTitle', coll => { coll.sort(sortByTitle); return coll })
+	config.addFilter('shortenTag', tag => unhierarchicalTagName(tag));
 
 	const markdownIt = require("markdown-it");
   	const options = {
@@ -55,7 +56,11 @@ function sortByTitle(a,b) {
 		const aTitle = a.data.title.replace( stopWordRegex, '' );
 		const bTitle = b.data.title.replace( stopWordRegex, '' );
 		return aTitle.localeCompare(bTitle);
-		}
+}
+
+function unhierarchicalTagName(tag) {
+	return tag.split(":").slice(-1)[0];
+}
 
 function extractExcerpt(article) {
   if (!article.hasOwnProperty('templateContent')) {
