@@ -6,6 +6,7 @@ tags:
   - rpg
   - urban fantasy
   - horror
+  - apocalypse
   - PbtA
   - dice
   - dice:2d6
