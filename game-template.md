@@ -2,6 +2,7 @@
 title: ${GAME}
 subtitle: 
 author: 
+publisher:
 tags:
   - rpg
   - fantasy
