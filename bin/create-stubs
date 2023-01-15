@@ -1,0 +1,109 @@
+#!/bin/env python3
+
+import os
+import re
+import subprocess
+from datetime import datetime
+from pathlib import Path
+from string import Template
+
+# Which directory to iterate
+SEARCH_PATH="/Volumes/Datentonne/Rollenspiel/Systeme"
+
+# Prefix for the file list
+FILE_PREFIX="Systeme/"
+
+OUTPUT_PATH="src/games"
+
+directory = os.fsencode(SEARCH_PATH)
+
+def get_game_name(file_name):
+    return Path(file_name).stem.replace("_", " ")
+
+def get_safe_name(game_name):
+    return re.sub("[^\\w ]+", '', game_name).replace(" ", "_")
+
+def get_file_list_entry(file_name):
+    return "  - " + str(Path(FILE_PREFIX, file_name))
+
+def game_template(vars):
+    return Template("""\
+---
+title: ${game}
+subtitle: 
+author: 
+publisher:
+tags:
+  - untagged
+image: ${image}
+mechanic: 
+playtime:
+min_players: 
+max_players: 
+rpggeek:
+wikidata:
+rating: 
+date: ${file_date}
+physical_copy: false
+files:
+${file_list}
+---
+<!-- Excerpt Start -->
+<!-- Excerpt End -->
+
+""").substitute(vars)
+
+def create_thumbnail(file_name, image_name):
+    subprocess.run(["convert", "-density", "72", f"{file_name}[0]", "-colorspace", "rgb", image_name])
+
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+for file in os.scandir(directory):
+    time_created = file.stat().st_ctime
+    file_name = os.fsdecode(file.name)
+    if file_name == ".DS_Store":
+      continue
+    name = get_game_name(str(file_name))
+    safe_name = get_safe_name(name)
+    metadata_file_name = Path(OUTPUT_PATH, safe_name + ".md")
+    thumbnail_name = Path( "images", safe_name + ".jpg")
+    thumbnail_file_name = str(Path( OUTPUT_PATH, thumbnail_name))
+    if file.is_dir():
+        files = [get_file_list_entry(Path(file_name, f)) for f in os.listdir(Path(SEARCH_PATH, file_name))]
+        thumbnail_name = ""
+    else:
+        if Path(file_name).suffix != ".pdf":
+            thumbnail_name = ""
+        files = [get_file_list_entry(file_name) ]
+
+    file_list = "\n".join(files)
+
+    game_text = game_template({
+        'file_list': file_list,
+        'game': name,
+        'image': thumbnail_name,
+        'file_date': datetime.fromtimestamp(time_created).strftime('%Y-%m-%d')
+        })
+    
+    if (os.path.isfile(metadata_file_name)):
+        print(f"skipped {bcolors.OKGREEN}{metadata_file_name}{bcolors.ENDC} - exists")
+        continue
+
+    with open(metadata_file_name, 'w') as gamefile:
+        gamefile.write(game_text)
+    print(f"created {bcolors.FAIL}{metadata_file_name}{bcolors.ENDC}")
+
+    if thumbnail_name:
+        create_thumbnail(str(Path(SEARCH_PATH, file_name)), thumbnail_file_name)
+        print(f"created {bcolors.FAIL}{thumbnail_file_name}{bcolors.ENDC}")
+     
