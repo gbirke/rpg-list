@@ -2,11 +2,9 @@
 - Add pagination on game overview page 
 - Add pagination on tag page (double pagination), see https://github.com/11ty/eleventy/issues/1120
 - Add pagination on game detail page (next/previous game)
-- Deploy
-- In-Browser PDF preview / Link to PDF display app (Kavita Reader,
-	Ubookquity, Paperless-NG)
+- In-Browser PDF preview (using caddy file server)
 - Make design more responsive: 
-	- Test on mobile devices and add breakpoints to avoid unneccessary columns
+	- Test on mobile devices and add breakpoints to avoid unnecessary columns
 	- Add hamburger menu navbar (see https://medium.com/@Mrsimi/responsive-navbar-in-tailwindcss-the-fast-lane-cce11fdf78f7)
 - Add search functionality: search for text and tags. See https://www.belter.io/eleventy-search/
 
@@ -15,6 +13,7 @@
 - Pages for tags, with descriptions and lists of subtags
 - Improve load times by optimizing images, using [eleventy-img](https://github.com/11ty/eleventy-img)
 - Author pages, linking games together, Linking to publishers
+- Automated Deployment
 - Sync tool for my collection of PDFs
 	- generate drafts of PDFs 
 	- add additional files.
@@ -35,7 +34,10 @@
   score, infrequent tags have higher score)
 - Cover thumbnail overview (with info on hover)
 - Full text search of PDFs
-- Timeline of aquisitions (List ordered by date, grouped by month or year)
+- Link to PDF display app. Possible candidates:
+	- Kavita Reader, 
+	- Ubooquity (uses IDs in the URL, would need to connect those to files)
+- Timeline of acquisitions (List ordered by date, grouped by month or year)
 
 # Done
 
