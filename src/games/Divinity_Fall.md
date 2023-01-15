@@ -26,9 +26,9 @@ wikidata:
 date: 2023-01-14
 physical_copy: false
 files:
-  - Systeme/Divinity_Fall_Color.pdf
-  - Systeme/Divinity_Fall_B&W.pdf
-  - Systeme/Playmats.pdf
+  - Systeme/Solo/Divinity_Fall_Color.pdf
+  - Systeme/Solo/Divinity_Fall_B&W.pdf
+  - Systeme/Solo/Playmats.pdf
 ---
 
 <!-- Excerpt Start -->

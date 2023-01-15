@@ -17,10 +17,10 @@ max_players: 1
 date: 2021-07-10
 physical_copy: false
 files:
-  - "Systeme/Superstition/Superstition-Season-Pages.pdf"
-  - "Systeme/Superstition/Superstition-Season-Spreads.pdf"
-  - "Systeme/Superstition/YearSpreads-Only.pdf"
-  - "Systeme/Superstition/Year-Pages-Only.pdf"
+  - "Systeme/Solo/Superstition/Superstition-Season-Pages.pdf"
+  - "Systeme/Solo/Superstition/Superstition-Season-Spreads.pdf"
+  - "Systeme/Solo/Superstition/YearSpreads-Only.pdf"
+  - "Systeme/Solo/Superstition/Year-Pages-Only.pdf"
 ---
 
 <!-- Excerpt Start -->

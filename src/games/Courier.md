@@ -22,11 +22,11 @@ wikidata:
 date: 2021-10-02
 physical_copy: false
 files:
-  - Systeme/Courier - 60 Hex Cells_425x6.pdf
-  - Systeme/Courier - Character Sheet.pdf
-  - Systeme/Courier - Custom Templates.7z
-  - Systeme/Courier - Single (Bookmarked).pdf
-  - Systeme/Courier - v1-4.pdf
+  - Systeme/Solo/Courier - 60 Hex Cells_425x6.pdf
+  - Systeme/Solo/Courier - Character Sheet.pdf
+  - Systeme/Solo/Courier - Custom Templates.7z
+  - Systeme/Solo/Courier - Single (Bookmarked).pdf
+  - Systeme/Solo/Courier - v1-4.pdf
 ---
 
 <!-- Excerpt Start -->

@@ -19,7 +19,7 @@ wikidata:
 date: 2021-07-10
 physical_copy: true
 files:
-  - "Systeme/Contemplation.pdf"
+  - "Systeme/Solo/Contemplation.pdf"
 ---
 
 There are three ways to use this book; what it will be for you will depend upon your own circumstances and wishes. It can be used as a quick RPG game, as a writing tool, or for solo journaling. Or even all three together.

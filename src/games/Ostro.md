@@ -20,8 +20,8 @@ wikidata:
 date: 2021-07-11
 physical_copy: false
 files:
-  - Systeme/Ostro_Exploration_v1.0.pdf
-  - Systeme/Ostro_Overview_v1.0.pdf
+  - Systeme/Solo/Ostro_Exploration_v1.0.pdf
+  - Systeme/Solo/Ostro_Overview_v1.0.pdf
 ---
 
 <!-- Excerpt Start -->

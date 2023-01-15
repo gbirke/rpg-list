@@ -19,8 +19,8 @@ wikidata:
 date: 2022-01-04
 physical_copy: true
 files:
-  - Systeme/Anamnesis Pages v.1.1.pdf
-  - Systeme/Anamnesis Spreads v1.1.pdf
+  - Systeme/Solo/Anamnesis Pages v.1.1.pdf
+  - Systeme/Solo/Anamnesis Spreads v1.1.pdf
 ---
 
 <!-- Excerpt Start -->

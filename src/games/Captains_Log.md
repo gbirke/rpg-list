@@ -23,8 +23,8 @@ wikidata:
 date: 2021-10-02
 physical_copy: false
 files:
-  - Systeme/Captain's Log - Solo RPG Zine Format.pdf
-  - Systeme/Captain's Log - Solo RPG.pdf
+  - Systeme/Solo/Captain's Log - Solo RPG Zine Format.pdf
+  - Systeme/Solo/Captain's Log - Solo RPG.pdf
 ---
 
 <!-- Excerpt Start -->

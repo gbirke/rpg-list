@@ -21,11 +21,11 @@ wikidata:
 date: 2022-11-24
 physical_copy: false
 files:
-  - Systeme/Transformation/Transformation - Digital.pdf
-  - Systeme/Transformation/Transformation - Print Friendly.pdf
-  - Systeme/Transformation/Transformation Notebook - Print Friendly.pdf
-  - Systeme/Transformation/Sticker Sheet 1.pdf
-  - Systeme/Transformation/Sticker Sheet 2.pdf
+  - Systeme/Solo/Transformation/Transformation - Digital.pdf
+  - Systeme/Solo/Transformation/Transformation - Print Friendly.pdf
+  - Systeme/Solo/Transformation/Transformation Notebook - Print Friendly.pdf
+  - Systeme/Solo/Transformation/Sticker Sheet 1.pdf
+  - Systeme/Solo/Transformation/Sticker Sheet 2.pdf
   
 ---
 

@@ -23,8 +23,8 @@ wikidata:
 date: 2022-06-29
 physical_copy: true
 files:
-  - Systeme/./Lichdom.pdf
-  - Systeme/./Lichdom_Character_Sheet.pdf
+  - Systeme/Solo/Lichdom.pdf
+  - Systeme/Solo/Lichdom_Character_Sheet.pdf
 ---
 
 <!-- Excerpt Start -->
