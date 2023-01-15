@@ -1,6 +1,7 @@
 module.exports = function (config) {
 
 	config.addPassthroughCopy('./src/games/images');
+	config.addPassthroughCopy({'./src/img/favicons':'/'});
 
 	// Eleventy < 1.0
 	config.setUseGitIgnore(false);
