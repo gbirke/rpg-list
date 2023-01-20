@@ -30,6 +30,7 @@ module.exports = function (config) {
 	config.addShortcode('excerpt', article => extractExcerpt(article));
 	config.addFilter('sortByTitle', coll => { coll.sort(sortByTitle); return coll })
 	config.addFilter('shortenTag', tag => unhierarchicalTagName(tag));
+	config.addFilter('pdfLink', fileName => `http://192.168.2.52:8045/PDFs/${encodeURI(fileName)}`);
 
 	const markdownIt = require("markdown-it");
   	const options = {

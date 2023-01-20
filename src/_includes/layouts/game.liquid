@@ -53,7 +53,7 @@ layout: layouts/base.liquid
 	<ul class="list-disc list-inside">
 		{% for gf in gameFiles %}
 			<li>
-				{{gf.name}}
+				<a href="{{gf.path | pdfLink}}" target="_blank" class="text-blue-600 underline">{{gf.name}}</a>
 			</li>
 		{% endfor %}
 	</ul>

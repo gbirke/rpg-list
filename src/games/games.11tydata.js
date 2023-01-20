@@ -36,6 +36,7 @@ module.exports = {
 		gameFiles: data => data.files ? 
 			data.files.map( f => ({
 				// TODO check some  process.env variable if PDFs should be served via some http url
+				path: f,
 				name: path.basename(f),
 				ext: path.extname(f).substr(1)
 			} ) ) :
