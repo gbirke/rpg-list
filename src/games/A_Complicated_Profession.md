@@ -19,9 +19,9 @@ max_players: 5
 date: 2021-08-08
 physical_copy: true
 files:
-  - Systeme/A Complicated Profession - PDF.pdf
-  - Systeme/A Complicated Profession - Printouts A4.pdf
-  - Systeme/Playing A Complicated Profession Online.txt
+  - Systeme/A Complicated Profession/A Complicated Profession - PDF.pdf
+  - Systeme/A Complicated Profession/A Complicated Profession - Printouts A4.pdf
+  - Systeme/A Complicated Profession/Playing A Complicated Profession Online.txt
 ---
 
 <!-- Excerpt Start -->
